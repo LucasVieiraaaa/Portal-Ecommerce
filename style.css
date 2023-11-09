@@ -1,0 +1,822 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.userpage{
+    border: solid 2px black;
+    box-shadow: 40px -16px rgb(23, 21, 21);
+    border-radius: 10px;
+    width: 800px;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    padding: 10px;
+    margin: auto;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.enter{
+}
+.letr{
+}
+.profilepicture{
+    width: 150px;
+    height: 150px;
+}
+.letrasuserpage{
+    gap: 1px;
+    font-size: 20px;
+    text-align: left;
+}
+.button {
+    border: 1px;
+    border-radius: 4px;
+    width: 100px;
+    height: 40px;
+}
+
+.letras {
+    color: #0a0a0a;
+}
+
+.lista {
+    display: flex;
+    font-size: 20px;
+}
+
+.search {
+    text-align: left;
+    justify-content: center;
+    height: 50px;
+    width: 500px;
+    border: 1px;
+    border-radius: 10px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: -10px;
+    box-shadow: #0a0a0a;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 10%, rgba(38, 37, 37, 1) 46%, rgba(0, 0, 0, 1) 90%);
+    color: white;
+    margin: 0px;
+    width: auto;
+}
+
+.itens {
+    height: 3%;
+    width: 3%;
+}
+
+.letrascabecalho {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.logo {
+    position: absolute;
+    top: 5%;
+    transition: transform 0.4s;
+
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 10%, rgba(38, 37, 37, 1) 46%, rgba(0, 0, 0, 1) 90%);
+}
+
+.footer2 {
+    display: block;
+    justify-content: center;
+}
+
+.letrasfooter {
+    font-size: 18px;
+    display: inline;
+    color: white
+}
+
+.HQ {
+    width: 50%;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.4);
+    transition: transform 0.4s;
+}
+
+.social {
+    width: 4%;
+}
+
+.HQ:hover {
+    transform: scale(1.2);
+}
+
+/* conteudo do site */
+#conteudo {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+/* Carrossel */
+.carrousel {
+    width: 97%;
+    height: 90%;
+}
+
+.index main img {
+    height: 374px;
+    width: 100%;
+}
+
+#posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    grid-gap: 1px;
+}
+
+#posts div {
+    padding: 20px 40px;
+    text-align: center;
+}
+
+#posts img {
+    border-radius: 10px;
+}
+
+.card {
+    background-color: white;
+    border: 1px;
+    border-radius: 10px;
+    width: auto;
+    align-items: center;
+    text-align: center;
+    box-shadow: inset 5em 1em rgb(16, 16, 16);
+}
+
+.Lucas_Card {
+    padding: 10px;
+    margin: auto;
+    border: solid 2px black;
+    border-radius: 15px;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    width: 1000px;
+    height: 690px;
+    box-shadow: 60px -16px rgb(23, 21, 21);
+}
+
+.Lucas_Card0 {
+    padding: 10px;
+    margin: auto;
+    border: solid 2px black;
+    border-radius: 15px;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    width: 1000px;
+    height: 600px;
+    box-shadow: 60px -16px rgb(23, 21, 21);
+}
+
+.Lucas_Input2 {
+    margin: 10px;
+    color: black;
+    border: 0px;
+    border-radius: 11px;
+    width: 350px;
+    background-color: rgb(230, 229, 229);
+    height: 40px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.Lucas_button2:hover {
+    transform: scale(1.2);
+}
+
+.Lucas_button2 {
+    transition: transform 0.3;
+}
+
+.Lucas_button2 {
+    display: inline;
+    justify-content: left;
+    text-align: auto;
+    border: auto;
+    border-radius: 11px;
+    width: 130px;
+    height: 50px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: black;
+}
+
+
+@media screen and (min-width: 900px) and (max-width: 1280px) {
+    .cabecalho {
+        display: grid;
+        width: auto;
+        height: 200px;
+        align-items: center;
+        padding: auto;
+    }
+
+    .logo {
+        position: absolute;
+        top: 6%;
+    }
+
+    .itens {
+        position: absolute;
+        top: 5%;
+        padding: 20px;
+        max-height: 10px;
+        max-width: 10px;
+    }
+
+    .letrascabecalho {
+        font-size: smaller;
+        display: list-item;
+        justify-content: start;
+        color: rgb(255, 255, 255);
+    }
+
+    .search {
+        text-align: left;
+        height: 50px;
+        width: auto;
+        border: 1px;
+        border-radius: 10px;
+
+    }
+
+    .carrousel {
+        width: auto;
+        height: auto;
+    }
+
+    #posts {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+        grid-gap: 1px;
+    }
+    .card {
+        background-color: white;
+        border: 1px;
+        border-radius: 10px;
+        width: auto;
+        align-items: center;
+        text-align: center;
+        box-shadow: inset 2.9em 1em rgb(16, 16, 16);
+    }
+    .social {
+        width: 5%;
+    }
+    .Lucas_Card {
+        padding: 10px;
+        margin: auto;
+        border: solid 2px black;
+        border-radius: 15px;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+        width: 90%;
+        height: 90%;
+        box-shadow: 60px -16px rgb(23, 21, 21);
+    }
+    .Lucas_Card0 {
+        padding: 10px;
+        margin: auto;
+        border: solid 2px black;
+        border-radius: 15px;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+        width: 90%;
+        height: 90%;
+        box-shadow: 20px -16px rgb(23, 21, 21);
+    }
+}
+
+@media screen and (min-width: 780px) and (max-width: 899px) {
+    .cabecalho {
+        display: grid;
+        width: auto;
+        height: 550px;
+        align-items: center;
+        padding: auto;
+    }
+
+    .logo {
+        display: inline;
+        position: absolute;
+        left: 40%;
+    }
+
+    .itens {
+        position: absolute;
+        top: 5%;
+        padding: 20px;
+        max-height: 10px;
+        max-width: 10px;
+    }
+
+    .letrascabecalho {
+        display: list-item;
+        font-size: smaller;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+
+    .search {
+        text-align: left;
+        height: 50px;
+        width: auto;
+        border: 1px;
+        border-radius: 10px;
+        position: absolute;
+        top: 20%;
+        left: 32%;
+    }
+
+    .carrousel {
+        width: auto;
+        height: auto;
+    }
+
+    #posts {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+        grid-gap: 1px;
+    }
+    .lista{
+        display: flex;
+        text-align: center;
+        gap: 10px;
+        display: list-item;
+    }
+    .card {
+        background-color: white;
+        border: 1px;
+        border-radius: 10px;
+        width: auto;
+        align-items: center;
+        text-align: center;
+        box-shadow: inset 2.5em 1em rgb(16, 16, 16);
+    }
+    .social {
+        width: 4%;
+    }
+    .userpage{
+        width: 90%;
+    }
+    .Lucas_button2{
+        position: relative;
+        height: 45px;
+    }
+    .enter{
+        position: absolute;
+        top: 20%;
+        right: 23%;
+        }
+        .Lucas_Card {
+            padding: 10px;
+            margin: auto;
+            border: solid 2px black;
+            border-radius: 15px;
+            display: block;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            font-size: 25px;
+            width: 90%;
+            height: 90%;
+            box-shadow: 60px -16px rgb(23, 21, 21);
+        }
+        .Lucas_Card0 {
+            padding: 10px;
+            margin: auto;
+            border: solid 2px black;
+            border-radius: 15px;
+            display: block;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            font-size: 25px;
+            width: 90%;
+            height: 90%;
+            box-shadow: 20px -16px rgb(23, 21, 21);
+        }
+
+}
+@media screen and (min-width: 600px) and (max-width: 779px) {
+    .cabecalho {
+        display: grid;
+        width: auto;
+        height: 650px;
+        align-items: center;
+        padding: auto;
+    }
+
+    .logo {
+        display: inline;
+        position: absolute;
+        left: 40%;
+    }
+
+    .itens {
+        position: absolute;
+        top: 5%;
+        padding: 20px;
+        max-height: 10px;
+        max-width: 10px;
+    }
+
+    .letrascabecalho {
+        display: list-item;
+        font-size: smaller;
+        color: rgb(255, 255, 255);
+        display: list-item;
+        align-items: center;    
+    }
+
+    .search {
+        text-align: left;
+        height: 45px;
+        width: auto;
+        border: 1px;
+        border-radius: 10px;
+        position: absolute;
+        top: 20%;
+        left: 25%;
+    }
+
+    .carrousel {
+        width: 500px;
+        height: auto;
+    }
+
+    #posts {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: space-between;
+        grid-gap: 1px;
+    }
+    .lista{
+        display: flex;
+        text-align: center;
+        gap: 5px;
+        display: list-item;
+    }
+    .card {
+        background-color: white;
+        border: 1px;
+        border-radius: 10px;
+        width: auto;
+        align-items: center;
+        text-align: center;
+        box-shadow: inset 2.5em 1em rgb(16, 16, 16);
+    }
+    .social {
+        width: 8%;
+    }
+    .userpage{
+        width: 90%;
+    }
+    .Lucas_button2{
+        position: relative;
+        height: 45px;
+    }
+    .enter{
+        position: absolute;
+        top: 20%;
+        right: 28%;
+    }
+    .Lucas_Card {
+        padding: 10px;
+        margin: auto;
+        border: solid 2px black;
+        border-radius: 15px;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+        width: 90%;
+        height: 90%;
+        box-shadow: 60px -16px rgb(23, 21, 21);
+    }
+    .Lucas_Card0 {
+        padding: 10px;
+        margin: auto;
+        border: solid 2px black;
+        border-radius: 15px;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+        width: 90%;
+        height: 90%;
+        box-shadow: 20px -16px rgb(23, 21, 21);
+    }
+
+}
+@media screen and (min-width: 370px) and (max-width: 599px) {
+    .cabecalho {
+        display: grid;
+        width: auto;
+        height: 650px;
+        align-items: center;
+        padding: auto;
+    }
+
+    .logo {
+        display: inline;
+        position: absolute;
+        left: 30%;
+        top: 1%;
+    }
+
+    .itens {
+        position: absolute;
+        top: 5%;
+        padding: 20px;
+        max-height: 10px;
+        max-width: 10px;
+    }
+
+    .letrascabecalho {
+        display: list-item;
+        font-size: 20px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+
+
+    .search {
+        text-align: left;
+        height: 50px;
+        width: auto;
+        border: 1px;
+        border-radius: 10px;
+        position: absolute;
+        top: 15%;
+        left: 22%;
+    }
+
+    .carrousel {
+        width: 00px;
+        height: 0px;
+    }
+
+    #posts {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: space-between;
+        grid-gap: 1px;
+    }
+    .lista{
+        display: flex;
+        text-align: center;
+        gap: 2px;
+        display: list-item;
+    }
+    .card {
+        background-color: white;
+        border: 1px;
+        border-radius: 10px;
+        width: auto;
+        align-items: center;
+        text-align: center;
+        box-shadow: inset 2.5em 1em rgb(16, 16, 16);
+    }
+    .social {
+        width: 12%;
+    }
+    .letrasfooter {
+        display: list-item;
+        font-size: 20px;
+        text-align: center;
+        color: white
+    }
+    .userpage{
+        width: 90%;
+    }
+    .Lucas_button2{
+        position: relative;
+        height: 45px;
+    }
+    .enter{
+        position: absolute;
+        top: 20%;
+        right: 24%;
+    }
+    .Lucas_Card {
+        padding: 10px;
+        margin: auto;
+        border: solid 2px black;
+        border-radius: 15px;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+        width: 90%;
+        height: 90%;
+        box-shadow: 60px -16px rgb(23, 21, 21);
+    }
+    .Lucas_Card0 {
+        padding: 10px;
+        margin: auto;
+        border: solid 2px black;
+        border-radius: 15px;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+        width: 90%;
+        height: 90%;
+        box-shadow: 20px -16px rgb(23, 21, 21);
+    }
+}
+    @media screen and (min-width: 370px) and (max-width: 450px) {
+        .letrascabecalho {
+            display: list-item;
+            font-size: 20px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+        }
+    .userpage{
+        width: 90%;
+        font-size: 10px;
+    }
+    .Lucas_button2{
+        position: relative;
+        height: 45px;
+    }
+    .enter{
+        position: absolute;
+        top: 15%;
+        right: 1%;
+        width: 95px;
+        height: 50px;
+    }
+}
+@media screen and (min-width: 100px) and (max-width: 412px) {
+    .cabecalho {
+        display: grid;
+        width: auto;
+        height: 600px;
+        align-items: center;
+        padding: auto;
+    }
+    .logo {
+        display: inline;
+        position: absolute;
+        left: 30%;
+        top: 1%;
+    }
+
+    .itens {
+        position: absolute;
+        top: 5%;
+        padding: 20px;
+        max-height: 10px;
+        max-width: 10px;
+    }
+
+    .letrascabecalho {
+        display: list-item;
+        font-size: 20px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+
+    .search {
+        text-align: left;
+        height: 50px;
+        width: auto;
+        border: 1px;
+        border-radius: 10px;
+        position: absolute;
+        top: 15%;
+        left: 22%;
+    }
+
+    .carrousel {
+        width: 00px;
+        height: 0px;
+    }
+
+    #posts {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: space-between;
+        grid-gap: 1px;
+    }
+    .lista{
+        display: flex;
+        text-align: center;
+        gap: 2px;
+        display: list-item;
+    }
+    .card {
+        background-color: white;
+        border: 1px;
+        border-radius: 10px;
+        width: auto;
+        align-items: center;
+        text-align: center;
+        box-shadow: inset 2.5em 1em rgb(16, 16, 16);
+    }
+    .social {
+        width: 21%;
+    }
+    .letrasfooter {
+        display: list-item;
+        font-size: 20px;
+        text-align: center;
+        color: white
+    }
+    .userpage{
+        width: 90%;
+    }
+    .Lucas_button2{
+        position: relative;
+        height: 45px;
+    }
+    .enter{
+        position: absolute;
+        top: 22%;
+        right: 29%;
+    }
+    .Lucas_Card {
+        padding: 10px;
+        margin: auto;
+        border: solid 2px black;
+        border-radius: 15px;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+        width: 90%;
+        height: 80%;
+        box-shadow: 60px -16px rgb(23, 21, 21);
+    }
+    .Lucas_Input2 {
+        margin: 10px;
+        color: black;
+        border: 0px;
+        border-radius: 11px;
+        width: 320px;
+        background-color: rgb(230, 229, 229);
+        height: 40px;
+        font-size: 18px;
+        text-align: left;
+    }
+    .Lucas_Card0 {
+        padding: 10px;
+        margin: auto;
+        border: solid 2px black;
+        border-radius: 15px;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+        width: 90%;
+        height: 90%;
+        box-shadow: 20px -16px rgb(23, 21, 21);
+    }
+    .letr{
+        font-size: smaller;
+    }
+}
